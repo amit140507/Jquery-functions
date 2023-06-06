@@ -49,15 +49,30 @@ $("p").removeAttr("style");
 ```
 
 ## 7 [appendTo()](https://www.w3schools.com/jquery/html_appendto.asp)
- Insert a <span> element at the end of p element:  
-`$("<span>Hello World!</span>").appendTo("p");`
-`jQuery('<a class="underlineBtn-2 mobile-readmore" id="read-more-button-light">'+readmore+'</a>').appendTo(".read-more-light");`
+The appendTo() method inserts HTML elements at the end of the selected elements.
+```
+$("<span>Hello World!</span>").appendTo("p");
+```  
+```
+jQuery('<a class="underlineBtn-2 mobile-readmore" id="read-more-button-light">'+readmore+'</a>').appendTo(".read-more-light");
+```
  
-## [prependTo()](https://www.w3schools.com/jquery/html_prependto.asp)
- 
+
 ## [append](https://www.w3schools.com/jquery/html_append.asp)
- 
+ The append() method inserts specified content at the end of the selected elements.
+```
+ $("p").append("<b>Appended text</b>");
+```
+## [prependTo()](https://www.w3schools.com/jquery/html_prependto.asp)  
+ The prependTo() method inserts HTML elements at the beginning of the selected elements.
+```
+   $("<span>Hello World!</span>").prependTo("p");
+```
 ## [prepend](https://www.w3schools.com/jquery/html_prepend.asp)
+The prepend() method inserts specified content at the beginning of the selected elements.  
+```
+ $("p").prepend("<b>Prepended text</b>");
+```
  
      
 
