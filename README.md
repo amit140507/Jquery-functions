@@ -29,4 +29,69 @@ Tip: To include the margin, use outerHeight(true).
 var footerheight = jQuery("footer").outerHeight();
 ```
 
-## 5 
+## 5 [.css()](https://www.w3schools.com/jquery/jquery_css.asp) 
+To get or set value of a css property.  
+
+**Example**  
+```
+jQuery("main").css("margin-bottom", "100px");
+```
+```
+$("p").css("background-color", "yellow");
+```
+## 6  [removeAttr()](https://www.w3schools.com/jquery/html_removeattr.asp)  
+The removeAttr() method removes one or more attributes from the selected elements.  
+```
+jQuery('a.customwpmenu.dropdown-toggle').removeAttr('data-toggle');
+```
+```
+$("p").removeAttr("style");
+```
+
+## 7 [appendTo()](https://www.w3schools.com/jquery/html_appendto.asp)
+ Insert a <span> element at the end of p element:  
+`$("<span>Hello World!</span>").appendTo("p");`
+`jQuery('<a class="underlineBtn-2 mobile-readmore" id="read-more-button-light">'+readmore+'</a>').appendTo(".read-more-light");`
+ 
+## [prependTo()](https://www.w3schools.com/jquery/html_prependto.asp)
+ 
+## [append](https://www.w3schools.com/jquery/html_append.asp)
+ 
+## [prepend](https://www.w3schools.com/jquery/html_prepend.asp)
+ 
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
