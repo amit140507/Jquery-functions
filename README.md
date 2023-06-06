@@ -57,7 +57,6 @@ $("<span>Hello World!</span>").appendTo("p");
 jQuery('<a class="underlineBtn-2 mobile-readmore" id="read-more-button-light">'+readmore+'</a>').appendTo(".read-more-light");
 ```
  
-
 ## [append](https://www.w3schools.com/jquery/html_append.asp)
  The append() method inserts specified content at the end of the selected elements.
 ```
@@ -73,7 +72,13 @@ The prepend() method inserts specified content at the beginning of the selected 
 ```
  $("p").prepend("<b>Prepended text</b>");
 ```
- 
+## 8 [.remove()](https://www.w3schools.com/jquery/jquery_dom_remove.asp)  
+The jQuery remove() method removes the selected element(s) and its child elements.  
+```
+$("#div1").remove();
+```
+
+##9 
      
 
 
