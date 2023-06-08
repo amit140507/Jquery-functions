@@ -78,8 +78,19 @@ The jQuery remove() method removes the selected element(s) and its child element
 $("#div1").remove();
 ```
 
-##9 
-     
+## 9 When Click on an element addClass and when click anywhere outside that particular element removeClass
+```
+  jQuery(".type").on("click", function(a) {
+    jQuery(".category-type").addClass("active");
+    a.stopPropagation();
+  });
+  jQuery(document).on("click", function(a) {
+    if (jQuery(a.target).is("active") === false) {
+      jQuery(".category-type").removeClass("active");
+    }
+  });
+```  
+## 10      
 
 
 
