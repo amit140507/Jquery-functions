@@ -90,14 +90,57 @@ $("#div1").remove();
     }
   });
 ```  
-## 10      
+```
+  jQuery(".year-dropdown-button").on("click", function(a) {
+    jQuery('#date-filter').show();
+    jQuery(".year-dropdown").addClass("active");
+    a.stopPropagation();
+  });
+  jQuery(document).on("click", function(a) {
+    if (jQuery(a.target).is("active") === false) {
+        jQuery('#date-filter').hide();
+      jQuery(".year-dropdown").removeClass("active");
+    }
+  });
+  ```
+## 10 [clone()](https://www.w3schools.com/jquery/html_clone.asp)  
+The clone() method makes a copy of selected elements, including child nodes, text and attributes.  
 
+## 11 [text()](https://www.w3schools.com/jquery/html_text.asp)  
+The text() method sets or returns the text content of the selected elements.  
+Example:  
+**Set value**
+```
+ $("p").text("Hello world!");
+```
+**Get value**
+```
+ $(selector).text()
+```
 
+## #12 [val()](https://www.w3schools.com/jquery/html_val.asp)  
+The val() method returns or sets the value attribute of the selected elements.  
+Example:  
+Set Value
+```
+ $("input:text").val("Glenn Quagmire");
+```
+Get value
+```
+ $("input:text").val();
+```
 
+## #13 [delay()](https://www.w3schools.com/jquery/eff_delay.asp) 
+The delay() method sets a timer to delay the execution of the next item in the queue  
+Example:  
+```
+$("#div1").delay("slow").fadeIn();
+```
+```
+jQuery('.chart-section tr th:nth-child(even)').delay(2000).css("background-color", ""+colour+"10");
+```
 
-
-
-
+## 14 []()
 
 
 
